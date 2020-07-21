@@ -1,0 +1,21 @@
+ul,li{
+    list-style: none;
+    padding: 5px 5px;
+    margin: 0;
+}
+*{
+ 
+}
+
+li{
+    display: flex;
+
+}
+
+span{
+    flex: 1;
+}
+
+li:nth-child(odd){
+    background-color: #efefef;
+}
